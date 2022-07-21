@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 /* TODO
+    Протестировать гит
  */
 
 class WrongInputEx extends Exception {
@@ -72,6 +73,7 @@ class Game {
     private char[][] sea;
     private Warship[] warships;
     private Random rnd = new Random(System.currentTimeMillis());
+    // Что это здесь у нас?
     private final char[] C2I = {'А','Б','В','Г','Д','Е','Ж','З','И','К','Л','М','Н','О',
                                 'П','Р','С','Т','У','Ф','Х','Ц','Ч','Ш','Ы','Э','Ю','Я'};
     private int moveCount = 0;
