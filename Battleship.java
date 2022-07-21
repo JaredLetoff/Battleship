@@ -80,7 +80,7 @@ class Game {
 
     Game(int width, int height, int[] warshipSizes) {
         if (width > C2I.length) {
-            System.out.println("Поле слишком длинное");
+            System.out.println("Поле ("+ width +") слишком длинное, укорачиваю до "+ C2I.length);
             width = C2I.length;
         }
         W = width;
